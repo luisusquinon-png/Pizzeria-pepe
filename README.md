@@ -35,27 +35,32 @@ header img { height:50px; }
   <a href="#menu" class="btn-rojo">PEDIR AHORA</a>
 </div>
 
-<div id="menu">
+<div id="menu" style="padding:20px; background:#f2f2f2;">
+  <h1 style="text-align:center; color:#000;">¿QUÉ TENÉS GANAS?</h1>
+
   <div class="categoria">
     <div>
-      <h2>PIZZAS</h2>
-      <p>Clásicas y especiales hechas en horno a leña</p>
+      <h2>PIZZA NAPOLITANA</h2>
+      <p>Tomate, ajo, orégano y queso. Clásica italiana</p>
+      <p style="font-weight:bold; color:#e63946;">$8500</p>
     </div>
-    <img src="pizza.jpg" alt="pizza">
+    <img src="napolitana.jpg" alt="napolitana">
   </div>
 
   <div class="categoria">
     <div>
-      <h2>EMPANADAS</h2>
-      <p>Para picar y compartir entre todos</p>
+      <h2>MUZZARELLA</h2>
+      <p>La de siempre. Mucho queso y aceitunas</p>
+      <p style="font-weight:bold; color:#e63946;">$8000</p>
     </div>
-    <img src="pizza.jpg" alt="empanadas">
+    <img src="muzzarella.jpg" alt="muzzarella">
   </div>
 
   <div class="categoria">
     <div>
       <h2>BEBIDAS</h2>
-      <p>Frías y listas para acompañar tu pizza</p>
+      <p>Gaseosas, agua y birras bien frías</p>
+      <p style="font-weight:bold; color:#e63946;">$2500</p>
     </div>
     <img src="cocacola.jpg" alt="bebida">
   </div>
