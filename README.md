@@ -22,12 +22,23 @@ header img { height:50px; }
 </style>
 </head>
 <body>
-
+  
 <header>
   <img src="logo.jpg" alt="logo">
   <a href="#menu" class="btn-pedir">PEDIR AHORA</a>
-  <div class="menu-icon">☰</div>
+  <div class="menu-icon" onclick="document.getElementById('menu-desplegable').classList.toggle('show')">☰</div>
 </header>
+
+<div id="menu-desplegable" style="display:none; background:#000; position:fixed; top:80px; right:10px; padding:20px; border-radius:10px; z-index:11;">
+  <a href="#pizzas" style="color:white; display:block; padding:10px; text-decoration:none;">Pizzas</a>
+  <a href="#empanadas" style="color:white; display:block; padding:10px; text-decoration:none;">Empanadas</a>
+  <a href="#bebidas" style="color:white; display:block; padding:10px; text-decoration:none;">Bebidas</a>
+  <a href="https://wa.me/549223XXXXXXX" style="color:#e63946; display:block; padding:10px; text-decoration:none; font-weight:bold;">Pedir por WhatsApp</a>
+</div>
+
+<style>
+.show { display:block !important; }
+</style>
 
 <div class="hero" id="hero">
   <h1>Pizza a la Piedra<br>con Sabor MDQ</h1>
