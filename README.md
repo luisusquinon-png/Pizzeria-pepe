@@ -37,7 +37,8 @@ header img { height:50px; }
 .precio { font-weight:bold; color:#e63946; font-size:20px; }
 .btn-wsp { background:#25D366; color:white; padding:10px 15px; border-radius:8px; text-decoration:none; font-weight:bold; white-space:nowrap; }
 
-#contacto { padding:40px 20px; background:#000; color:white; text-align:center; }
+/* CAMBIO: AHORA ES BLANCO */
+#contacto { padding:40px 20px; background:white; color:#222; text-align:center; border-top: 3px solid #e63946; }
 #contacto h2 { color:#e63946; }
 iframe { width:100%; height:250px; border:0; border-radius:12px; margin-top:20px; }
 </style>
@@ -66,165 +67,76 @@ iframe { width:100%; height:250px; border:0; border-radius:12px; margin-top:20px
 
 <div id="menu">
   <h1>¿QUÉ TENÉS GANAS?</h1>
-
-  <a href="#seccion-pizzas" style="text-decoration:none; color:black;">
-    <div class="categoria">
-      <div><h2>PIZZAS</h2><p>Clásicas y especiales hechas en horno a leña</p></div>
-      <img src="pizza-queso.jpg" alt="pizza" width="120" style="border-radius:10px;">
-    </div>
-  </a>
-
-  <a href="#seccion-empanadas" style="text-decoration:none; color:black;">
-    <div class="categoria">
-      <div><h2>EMPANADAS</h2><p>Crujientes y doraditas, listas para compartir</p></div>
-      <img src="empanada-criolla.jpg" alt="empanadas" width="120" style="border-radius:10px;">
-    </div>
-  </a>
-
-  <a href="#seccion-bebidas" style="text-decoration:none; color:black;">
-    <div class="categoria">
-      <div><h2>BEBIDAS</h2><p>Bien frías directo de la heladera</p></div>
-      <img src="coca.jpg" alt="bebida" width="120" style="border-radius:10px;">
-    </div>
-  </a>
+  <a href="#seccion-pizzas" style="text-decoration:none; color:black;"><div class="categoria"><div><h2>PIZZAS</h2><p>Clásicas y especiales</p></div><img src="pizza-queso.jpg" alt="pizza" width="120" style="border-radius:10px;"></div></a>
+  <a href="#seccion-empanadas" style="text-decoration:none; color:black;"><div class="categoria"><div><h2>EMPANADAS</h2><p>Crujientes y doraditas</p></div><img src="empanada-criolla.jpg" alt="empanadas" width="120" style="border-radius:10px;"></div></a>
+  <a href="#seccion-bebidas" style="text-decoration:none; color:black;"><div class="categoria"><div><h2>BEBIDAS</h2><p>Bien frías</p></div><img src="coca.jpg" alt="bebida" width="120" style="border-radius:10px;"></div></a>
 </div>
 
-<!-- SECCION PIZZAS -->
+<!-- PIZZAS -->
 <div id="seccion-pizzas" style="padding:40px 20px; background:#FFF8E7;">
   <h2 style="text-align:center; color:#e63946; font-size:32px;">PIZZAS A ELECCIÓN</h2>
   
   <div class="producto">
     <img src="pizza-queso.jpg" alt="muzzarella">
-    <div class="producto-info">
-      <h3>MUZZARELLA</h3>
-      <p>Mucho queso y aceitunas</p>
-      <p class="precio">$8000</p>
-    </div>
+    <div class="producto-info"><h3>MUZZARELLA</h3><p>Mucho queso y aceitunas</p><p class="precio">$8000</p></div>
     <a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Muzzarella%20$8000" class="btn-wsp">Pedir</a>
   </div>
 
   <div class="producto">
     <img src="napolitana.jpg" alt="napolitana">
-    <div class="producto-info">
-      <h3>NAPOLITANA</h3>
-      <p>Tomate, ajo, orégano y mucho queso</p>
-      <p class="precio">$8500</p>
-    </div>
+    <div class="producto-info"><h3>NAPOLITANA</h3><p>Tomate, ajo, orégano y mucho queso</p><p class="precio">$8500</p></div>
     <a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Napolitana%20$8500" class="btn-wsp">Pedir</a>
   </div>
 
   <div class="producto">
     <img src="pizza-fugazzeta.jpg" alt="fugazzeta">
-    <div class="producto-info">
-      <h3>FUGAZZETA</h3>
-      <p>Cebolla, queso y orégano</p>
-      <p class="precio">$8200</p>
-    </div>
+    <div class="producto-info"><h3>FUGAZZETA</h3><p>Cebolla, queso y orégano</p><p class="precio">$8200</p></div>
     <a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Fugazzeta%20$8200" class="btn-wsp">Pedir</a>
   </div>
 
+  <!-- ARREGLADO: NOMBRE DE IMAGEN -->
   <div class="producto">
-    <img src="jamon-morrones.jpg" alt="jamon">
-    <div class="producto-info">
-      <h3>JAMÓN Y MORRONES</h3>
-      <p>Jamón cocido, morrones y queso</p>
-      <p class="precio">$8700</p>
-    </div>
+    <img src="jamon-morrones.jpg" alt="jamon y morrones">
+    <div class="producto-info"><h3>JAMÓN Y MORRONES</h3><p>Jamón cocido, morrones y queso</p><p class="precio">$8700</p></div>
     <a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Jamón%20y%20Morrones%20$8700" class="btn-wsp">Pedir</a>
   </div>
 </div>
 
-<!-- SECCION EMPANADAS -->
+<!-- EMPANADAS -->
 <div id="seccion-empanadas" style="padding:40px 20px; background:white;">
   <h2 style="text-align:center; color:#e63946; font-size:32px;">EMPANADAS</h2>
   
   <div class="producto">
     <img src="empanada-criolla.jpg" alt="criolla">
-    <div class="producto-info">
-      <h3>EMPANADA CRIOLLA</h3>
-      <p>Carne cortada a cuchillo</p>
-      <p class="precio">$1000 c/u</p>
-    </div>
+    <div class="producto-info"><h3>EMPANADA CRIOLLA</h3><p>Carne cortada a cuchillo</p><p class="precio">$1000 c/u</p></div>
     <a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Empanada%20Criolla%20$1000" class="btn-wsp">Pedir</a>
   </div>
 
+  <!-- ARREGLADO: NOMBRE DE IMAGEN -->
   <div class="producto">
     <img src="empanada-saltena.jpg" alt="salteña">
-    <div class="producto-info">
-      <h3>EMPANADA SALTEÑA</h3>
-      <p>Carne, papa y huevo. Estilo norte</p>
-      <p class="precio">$1000 c/u</p>
-    </div>
+    <div class="producto-info"><h3>EMPANADA SALTEÑA</h3><p>Carne, papa y huevo. Estilo norte</p><p class="precio">$1000 c/u</p></div>
     <a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Empanada%20Salteña%20$1000" class="btn-wsp">Pedir</a>
   </div>
 
   <div class="producto">
     <img src="empanadas-doradas.jpg" alt="docena">
-    <div class="producto-info">
-      <h3>DOCENA HORNO</h3>
-      <p>Mezcladas: carne, pollo, jyq</p>
-      <p class="precio">$12000 la docena</p>
-    </div>
+    <div class="producto-info"><h3>DOCENA HORNO</h3><p>Mezcladas: carne, pollo, jyq</p><p class="precio">$12000 la docena</p></div>
     <a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Docena%20de%20Empanadas%20$12000" class="btn-wsp">Pedir</a>
   </div>
 </div>
 
-<!-- SECCION BEBIDAS -->
+<!-- BEBIDAS -->
 <div id="seccion-bebidas" style="padding:40px 20px; background:#FFF8E7;">
   <h2 style="text-align:center; color:#e63946; font-size:32px;">BEBIDAS BIEN FRÍAS</h2>
-  
-  <div class="producto">
-    <img src="coca.jpg" alt="coca">
-    <div class="producto-info">
-      <h3>COCA-COLA 350ml</h3>
-      <p>Sabor original</p>
-      <p class="precio">$2500 c/u</p>
-    </div>
-    <a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Coca-Cola%20$2500" class="btn-wsp">Pedir</a>
-  </div>
-
-  <div class="producto">
-    <img src="sprite.jpg" alt="sprite">
-    <div class="producto-info">
-      <h3>SPRITE 350ml</h3>
-      <p>Lima-limón</p>
-      <p class="precio">$2500 c/u</p>
-    </div>
-    <a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Sprite%20$2500" class="btn-wsp">Pedir</a>
-  </div>
-
-  <div class="producto">
-    <img src="fanta.jpg" alt="fanta">
-    <div class="producto-info">
-      <h3>FANTA NARANJA 350ml</h3>
-      <p>Zero azúcares</p>
-      <p class="precio">$2500 c/u</p>
-    </div>
-    <a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Fanta%20$2500" class="btn-wsp">Pedir</a>
-  </div>
-
-  <div class="producto">
-    <img src="pepsi.jpg" alt="pepsi">
-    <div class="producto-info">
-      <h3>PEPSI 350ml</h3>
-      <p>Clásica</p>
-      <p class="precio">$2500 c/u</p>
-    </div>
-    <a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Pepsi%20$2500" class="btn-wsp">Pedir</a>
-  </div>
-
-  <div class="producto">
-    <img src="heladera-bebidas.jpg" alt="cerveza">
-    <div class="producto-info">
-      <h3>CERVEZA 473ml</h3>
-      <p>Quilmes, Brahma, Andes</p>
-      <p class="precio">$3500 c/u</p>
-    </div>
-    <a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Cerveza%20$3500" class="btn-wsp">Pedir</a>
-  </div>
+  <div class="producto"><img src="coca.jpg" alt="coca"><div class="producto-info"><h3>COCA-COLA 350ml</h3><p>Sabor original</p><p class="precio">$2500 c/u</p></div><a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Coca-Cola%20$2500" class="btn-wsp">Pedir</a></div>
+  <div class="producto"><img src="sprite.jpg" alt="sprite"><div class="producto-info"><h3>SPRITE 350ml</h3><p>Lima-limón</p><p class="precio">$2500 c/u</p></div><a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Sprite%20$2500" class="btn-wsp">Pedir</a></div>
+  <div class="producto"><img src="fanta.jpg" alt="fanta"><div class="producto-info"><h3>FANTA NARANJA 350ml</h3><p>Zero azúcares</p><p class="precio">$2500 c/u</p></div><a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Fanta%20$2500" class="btn-wsp">Pedir</a></div>
+  <div class="producto"><img src="pepsi.jpg" alt="pepsi"><div class="producto-info"><h3>PEPSI 350ml</h3><p>Clásica</p><p class="precio">$2500 c/u</p></div><a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Pepsi%20$2500" class="btn-wsp">Pedir</a></div>
+  <div class="producto"><img src="heladera-bebidas.jpg" alt="cerveza"><div class="producto-info"><h3>CERVEZA 473ml</h3><p>Quilmes, Brahma, Andes</p><p class="precio">$3500 c/u</p></div><a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Cerveza%20$3500" class="btn-wsp">Pedir</a></div>
 </div>
 
-<!-- SECCION CONTACTO -->
+<!-- CONTACTO AHORA BLANCO -->
 <div id="contacto">
   <h2>NUESTRA UBICACIÓN</h2>
   <p><b>Horario:</b> Lunes a Domingo de 19:00 a 00:00 hs</p>
