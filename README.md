@@ -6,10 +6,10 @@
 <title>Pizzería Pepe - Pizza a la Piedra</title>
 <style>
 body { margin:0; font-family: Arial; background:#FFF8E7; color:#222; }
-header { display:flex; justify-content:space-between; align-items:center; padding:15px; background:#000; position:fixed; width:100%; top:0; z-index:10; box-sizing: border-box; }
+header { display:flex; justify-content:space-between; align-items:center; padding:15px; background:white; position:fixed; width:100%; top:0; z-index:10; box-sizing: border-box; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
 header img { height:50px; }
 .btn-pedir { background:#e63946; color:white; padding:10px 20px; border-radius:8px; text-decoration:none; font-weight:bold; }
-.menu-icon { font-size:28px; cursor:pointer; color:white; }
+.menu-icon { font-size:28px; cursor:pointer; color:#000; }
 .show { display:block !important; }
 
 .hero { 
@@ -40,16 +40,16 @@ header img { height:50px; }
   <div class="menu-icon" onclick="document.getElementById('menu-desplegable').classList.toggle('show')">☰</div>
 </header>
 
-<div id="menu-desplegable" style="display:none; background:#000; position:fixed; top:80px; right:10px; padding:20px; border-radius:10px; z-index:11;">
-  <a href="#seccion-pizzas" style="color:white; display:block; padding:10px; text-decoration:none;">Pizzas</a>
-  <a href="#seccion-empanadas" style="color:white; display:block; padding:10px; text-decoration:none;">Empanadas</a>
-  <a href="#seccion-bebidas" style="color:white; display:block; padding:10px; text-decoration:none;">Bebidas</a>
+<div id="menu-desplegable" style="display:none; background:white; position:fixed; top:80px; right:10px; padding:20px; border-radius:10px; z-index:11; box-shadow: 0 2px 10px rgba(0,0,0,0.2);">
+  <a href="#seccion-pizzas" style="color:#000; display:block; padding:10px; text-decoration:none;">Pizzas</a>
+  <a href="#seccion-empanadas" style="color:#000; display:block; padding:10px; text-decoration:none;">Empanadas</a>
+  <a href="#seccion-bebidas" style="color:#000; display:block; padding:10px; text-decoration:none;">Bebidas</a>
   <a href="https://wa.me/549223XXXXXXX" style="color:#e63946; display:block; padding:10px; text-decoration:none; font-weight:bold;">Pedir por WhatsApp</a>
 </div>
 
 <div class="hero" id="hero">
-  <h1>Pizza a la Piedra<br>con Sabor MDQ</h1>
-  <p>Y queda mejor con una birra bien fría</p>
+  <h1>Pizza a la Piedra<br>Hecha con Pasión</h1>
+  <p>El mejor sabor de Mar del Plata en cada porción</p>
   <a href="#menu" class="btn-rojo">PEDIR AHORA</a>
 </div>
 
@@ -70,9 +70,9 @@ header img { height:50px; }
     <div class="categoria">
       <div>
         <h2>EMPANADAS</h2>
-        <p>Para picar y compartir entre todos</p>
+        <p>Crujientes y doraditas, listas para compartir</p>
       </div>
-      <img src="empanadas.jpg" alt="empanadas">
+      <img src="empanadas-doradas.jpg" alt="empanadas">
     </div>
   </a>
 
@@ -80,9 +80,9 @@ header img { height:50px; }
     <div class="categoria">
       <div>
         <h2>BEBIDAS</h2>
-        <p>Frías y listas para acompañar tu pizza</p>
+        <p>Bien frías directo de la heladera</p>
       </div>
-      <img src="bebidas.jpg" alt="bebida">
+      <img src="heladera-bebidas.jpg" alt="bebida">
     </div>
   </a>
 </div>
@@ -94,19 +94,10 @@ header img { height:50px; }
   <div class="categoria">
     <div>
       <h2>PIZZA NAPOLITANA</h2>
-      <p>Tomate, ajo, orégano y mucho queso. Clásica italiana</p>
+      <p>Tomate, ajo, orégano y mucho queso</p>
       <p style="font-weight:bold; color:#e63946; font-size:20px;">$8500</p>
     </div>
     <img src="napolitana.jpg" alt="napolitana">
-  </div>
-
-  <div class="categoria">
-    <div>
-      <h2>MUZZARELLA</h2>
-      <p>La de siempre. Mucho queso y aceitunas</p>
-      <p style="font-weight:bold; color:#e63946; font-size:20px;">$8000</p>
-    </div>
-    <img src="muzzarella.jpg" alt="muzzarella">
   </div>
 </div>
 
@@ -119,7 +110,7 @@ header img { height:50px; }
       <p>Carne, pollo, jamón y queso. La docena</p>
       <p style="font-weight:bold; color:#e63946; font-size:20px;">$12000 la docena</p>
     </div>
-    <img src="empanadas.jpg" alt="empanadas">
+    <img src="empanadas-doradas.jpg" alt="empanadas">
   </div>
 </div>
 
@@ -128,17 +119,17 @@ header img { height:50px; }
   
   <div class="categoria">
     <div>
-      <h2>GASEOSAS 500ml</h2>
-      <p>Coca, Fanta, Sprite</p>
-      <p style="font-weight:bold; color:#e63946; font-size:20px;">$2500 c/u</p>
+      <h2>TODAS LAS MARCAS</h2>
+      <p>Coca, Pepsi, Sprite, Fanta, Cerveza, Agua...</p>
+      <p style="font-weight:bold; color:#e63946; font-size:20px;">Desde $2500</p>
     </div>
-    <img src="bebidas.jpg" alt="bebidas">
+    <img src="heladera-bebidas.jpg" alt="bebidas">
   </div>
 </div>
 
 <script>
-// CARRUSEL DE FONDO
-let imagenes = ['napolitana.jpg', 'picnic.jpg', 'empanadas.jpg', 'bebidas.jpg'];
+// CARRUSEL CON TUS FOTOS NUEVAS
+let imagenes = ['heladera-bebidas.jpg', 'napolitana.jpg', 'empanadas-doradas.jpg', 'picnic.jpg'];
 let i = 0;
 let hero = document.getElementById('hero');
 
