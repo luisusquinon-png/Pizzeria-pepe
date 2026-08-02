@@ -44,7 +44,7 @@ header img { height:50px; }
   <a href="#seccion-pizzas" style="color:#000; display:block; padding:10px; text-decoration:none;">Pizzas</a>
   <a href="#seccion-empanadas" style="color:#000; display:block; padding:10px; text-decoration:none;">Empanadas</a>
   <a href="#seccion-bebidas" style="color:#000; display:block; padding:10px; text-decoration:none;">Bebidas</a>
-  <a href="https://wa.me/549223XXXXXXX" style="color:#e63946; display:block; padding:10px; text-decoration:none; font-weight:bold;">Pedir por WhatsApp</a>
+  <a href="https://wa.me/5491172441030" style="color:#e63946; display:block; padding:10px; text-decoration:none; font-weight:bold;">Pedir por WhatsApp</a>
 </div>
 
 <div class="hero" id="hero">
