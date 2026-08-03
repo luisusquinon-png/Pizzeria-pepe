@@ -133,7 +133,7 @@ iframe { width:100%; height:250px; border:0; border-radius:12px; margin-top:20px
   <div class="producto"><img src="sprite.jpg" alt="sprite"><div class="producto-info"><h3>SPRITE 350ml</h3><p>Lima-limón</p><p class="precio">$2500 c/u</p></div><a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Sprite%20$2500" class="btn-wsp">Pedir</a></div>
   <div class="producto"><img src="fanta.jpg" alt="fanta"><div class="producto-info"><h3>FANTA NARANJA 350ml</h3><p>Zero azúcares</p><p class="precio">$2500 c/u</p></div><a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Fanta%20$2500" class="btn-wsp">Pedir</a></div>
   <div class="producto"><img src="pepsi.jpg" alt="pepsi"><div class="producto-info"><h3>PEPSI 350ml</h3><p>Clásica</p><p class="precio">$2500 c/u</p></div><a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Pepsi%20$2500" class="btn-wsp">Pedir</a></div>
-  <div class="producto"><img src="heladera-bebidas.jpg" alt="cerveza"><div class="producto-info"><h3>CERVEZA 473ml</h3><p>Quilmes, Brahma, Andes</p><p class="precio">$3500 c/u</p></div><a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Cerveza%20$3500" class="btn-wsp">Pedir</a></div>
+  <div class="producto"><img src="cervezas.jpg" alt="cerveza"><div class="producto-info"><h3>CERVEZA 473ml</h3><p>Quilmes, Brahma, Andes</p><p class="precio">$3500 c/u</p></div><a href="https://wa.me/5491172441030?text=Hola!%20Quiero%201%20Cerveza%20$3500" class="btn-wsp">Pedir</a></div>
 </div>
 
 <!-- CONTACTO AHORA BLANCO -->
