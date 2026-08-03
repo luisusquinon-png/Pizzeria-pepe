@@ -18,7 +18,7 @@ header img { height:50px; }
   display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; 
   margin-top:80px;
   background-color: #FFF8E7; 
-  animation: cambiarFondo 12s infinite; /* AHORA ROTA SOLO */
+  animation: cambiarFondo 12s infinite;
 }
 .hero h1 { font-size:32px; text-shadow:2px 2px 8px rgba(0,0,0,0.7); color:white; margin:10px; }
 .hero p { font-size:16px; text-shadow:2px 2px 6px rgba(0,0,0,0.7); color:white; margin:10px; }
@@ -37,28 +37,26 @@ header img { height:50px; }
 .precio { font-weight:bold; color:#e63946; font-size:20px; }
 .btn-wsp { background:#25D366; color:white; padding:10px 15px; border-radius:8px; text-decoration:none; font-weight:bold; white-space:nowrap; }
 
-/* CONTACTO BLANCO */
 #contacto { padding:40px 20px; background:white; color:#222; text-align:center; border-top: 3px solid #e63946; }
 #contacto h2 { color:#e63946; }
 iframe { width:100%; height:250px; border:0; border-radius:12px; margin-top:20px; }
 
-/* ANIMACION DE LAS 3 FOTOS PARA EL FONDO */
+/* ANIMACION ACTUALIZADA CON TU FOTO NUEVA */
 @keyframes cambiarFondo {
  0% { 
-   background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('empanadas-banner.jpg'); /* FOTO NUEVA */
+   background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('pizzas-mesa.jpg'); /* TU FOTO NUEVA */
  }
  33% { 
-   background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('pizza-mesa.jpg'); 
+   background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('pizza-queso.jpg'); 
  }
  66% { 
    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('picnic.jpg'); 
  }
  100% { 
-   background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('empanadas-banner.jpg'); 
+   background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('pizzas-mesa.jpg'); 
  }
 }
 
-/* Para celu */
 @media (max-width: 768px) {
   .hero { height: 40vh; }
   .hero h1 { font-size: 1.6rem; }
