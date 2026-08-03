@@ -48,7 +48,7 @@ iframe { width:100%; height:250px; border:0; border-radius:12px; margin-top:20px
    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('empanadas-banner.jpg'); /* FOTO NUEVA */
  }
  33% { 
-   background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('pizza-queso.jpg'); 
+   background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('pizza-mesa.jpg'); 
  }
  66% { 
    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('picnic.jpg'); 
